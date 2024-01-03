@@ -24,7 +24,11 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
         <label htmlFor={id}>{label}</label>
         <select {...rest} ref={ref}>
           {options.map((option) => {
-            return <option value={option.value}>{option.label}l</option>;
+            return (
+              <option key={option.value} value={option.value}>
+                {option.label}l
+              </option>
+            );
           })}
         </select>
       </>
@@ -33,3 +37,4 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
 );
 
 export { Select };
+export type { SelectOpt };
