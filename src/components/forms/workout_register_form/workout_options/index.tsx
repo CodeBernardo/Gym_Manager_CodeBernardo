@@ -30,7 +30,7 @@ import { SelectOpt } from "../../inputs";
 const reps: SelectOpt[] = [
   { value: "4 x 1-6", label: "Força" },
   { value: "4 x 8-12", label: "Hipertrofia" },
-  { value: "3 x 15+", label: "Resisência Muscular" },
+  { value: "3 x 15+", label: "Resisência Múscular" },
   { value: "3 x 12-20", label: "Cardio" },
   { value: "3 x 1-5", label: "Potência Muscular" },
 ];

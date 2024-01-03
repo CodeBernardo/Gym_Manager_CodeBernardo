@@ -11,12 +11,6 @@ interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement> {
   options: SelectOpt[];
 }
 
-// const options: SelectOpt = [
-//   { value: "admin", label: "Administrador" },
-//   { value: "coach", label: "Professor" },
-//   { value: "user", label: "Aluno" },
-// ];
-
 const Select = forwardRef<HTMLSelectElement, SelectProps>(
   ({ label, id, options, ...rest }, ref) => {
     return (
