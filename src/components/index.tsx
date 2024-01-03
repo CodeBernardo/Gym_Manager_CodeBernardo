@@ -1,3 +1,4 @@
 import { Input } from "./forms/inputs";
+import { AdminNavBar, CoachNavBar, UserNavBar } from "./navBar";
 
-export { Input };
+export { Input, AdminNavBar, CoachNavBar, UserNavBar };
