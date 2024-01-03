@@ -1,15 +1,16 @@
-// import { useForm } from "react-hook-form";
+import { LoginForm } from "../../components/forms";
 
-// const LoginPage = () => {
-//   const {register, handleSubmit, formState: {errors} } = useForm()
+const LoginPage = () => {
+  return (
+    <div>
+      <h2>Logar</h2>
+      <p>Faça o login para continuar para o Gym Manager</p>
+      <LoginForm />
+      <p>
+        Novo no Gym Manager? <span>Criar uma conta</span>
+      </p>
+    </div>
+  );
+};
 
-//   const submit = () => console.log("funcionei")
-
-//   return (
-//     <div>
-  
-//     </div>
-//   );
-// };
-
-// export { LoginPage };
+export { LoginPage }
