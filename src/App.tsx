@@ -1,17 +1,17 @@
-import './App.css'
-import { DefaultTemplate } from './components';
+import "./App.css";
+import { DefaultTemplate } from "./components";
+import { MainRoutes } from "./routes";
 
-function App() {
-
+const App = () => {
   return (
     <>
       <DefaultTemplate>
         <main>
-          
+          <MainRoutes/>
         </main>
       </DefaultTemplate>
     </>
-  )
-}
+  );
+};
 
-export default App
+export { App };

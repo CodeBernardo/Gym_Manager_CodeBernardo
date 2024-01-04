@@ -3,10 +3,10 @@ import { AppFooter } from "../footer";
 import { AppHeader } from "../header";
 
 type DefaultTemplateProps = {
-  children: ReactNode
-}
+  children: ReactNode;
+};
 
-const DefaultTemplate: React.FC<DefaultTemplateProps> = ({ children } ) => {
+const DefaultTemplate: React.FC<DefaultTemplateProps> = ({ children }) => {
   return (
     <>
       <AppHeader />
