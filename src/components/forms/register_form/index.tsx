@@ -31,6 +31,27 @@ const RegisterForm = () => {
         placeholder={"Digite seu melhor email"}
         {...register("email")}
       />
+      <Input
+        label={"Peso"}
+        id={"wheigt"}
+        type={"number"}
+        placeholder={"Digite seu peso"}
+        {...register("wheigt")}
+      />
+      <Input
+        label={"Altura"}
+        id={"height"}
+        type={"number"}
+        placeholder={"Digite sua altura"}
+        {...register("height")}
+      />
+      <Input
+        label={"Meta"}
+        id={"goal"}
+        type={"number"}
+        placeholder={"Digite sua meta de peso"}
+        {...register("goal")}
+      />
       <Select
         label={"Categoria de cadastro"}
         id={"role"}

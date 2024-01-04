@@ -3,7 +3,6 @@ const AdminNavBar = () => {
     <ul>
       <li>Home</li>
       <li>Administrar usuários</li>
-      <li>Logout</li>
     </ul>
   );
 };
@@ -13,7 +12,6 @@ const CoachNavBar = () => {
     <ul>
       <li>Home</li>
       <li>Administrar alunos</li>
-      <li>Logout</li>
     </ul>
   );
 };
@@ -23,7 +21,6 @@ const UserNavBar = () => {
     <ul>
       <li>Home</li>
       <li>Treinos</li>
-      <li>Logout</li>
     </ul>
   );
 };
