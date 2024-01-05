@@ -2,9 +2,7 @@ import { useForm } from "react-hook-form";
 import { Input, Select, SelectOpt } from "../inputs";
 import React from "react";
 
-
 const RegisterForm = () => {
-  
   const options: SelectOpt[] = [
     { value: "admin", label: "Administrador" },
     { value: "coach", label: "Professor" },

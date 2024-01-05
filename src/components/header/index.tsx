@@ -1,7 +1,6 @@
 // import { AdminNavBar, CoachNavBar, UserNavBar } from "../navBar";
 import React from "react";
 
-
 const AppHeader = () => {
   return (
     <>

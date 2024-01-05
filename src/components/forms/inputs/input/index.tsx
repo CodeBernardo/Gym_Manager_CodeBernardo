@@ -15,7 +15,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         <input {...rest} ref={ref} />
       </>
     );
-  },
+  }
 );
 
 export { Input };

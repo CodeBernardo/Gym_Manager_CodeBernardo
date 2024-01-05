@@ -7,7 +7,7 @@ const App = () => {
     <>
       <DefaultTemplate>
         <main>
-          <MainRoutes/>
+          <MainRoutes />
         </main>
       </DefaultTemplate>
     </>

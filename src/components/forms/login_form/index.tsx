@@ -2,13 +2,12 @@ import { useForm } from "react-hook-form";
 import { Input } from "../inputs";
 import React from "react";
 
-
 const LoginForm = () => {
   const { register, handleSubmit } = useForm();
 
   const submit = (payload: unknown) => {
-    console.log(payload)
-  }
+    console.log(payload);
+  };
 
   return (
     <form action="" onSubmit={handleSubmit(submit)}>
@@ -41,4 +40,4 @@ const LoginForm = () => {
   );
 };
 
-export { LoginForm }
+export { LoginForm };

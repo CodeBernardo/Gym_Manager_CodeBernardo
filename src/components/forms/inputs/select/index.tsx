@@ -28,7 +28,7 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
         </select>
       </>
     );
-  },
+  }
 );
 
 export { Select };

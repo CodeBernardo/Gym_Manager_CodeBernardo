@@ -1,6 +1,6 @@
-import  React, { ReactNode } from "react";
-import  { AppFooter } from "../footer";
-import  { AppHeader } from "../header";
+import React, { ReactNode } from "react";
+import { AppFooter } from "../footer";
+import { AppHeader } from "../header";
 
 type DefaultTemplateProps = {
   children: ReactNode;

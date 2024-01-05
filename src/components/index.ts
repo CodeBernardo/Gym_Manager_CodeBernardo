@@ -4,7 +4,6 @@ import { AppHeader } from "./header";
 import { AppFooter } from "./footer";
 import { DefaultTemplate } from "./default_template";
 
-
 export {
   Input,
   AdminNavBar,
