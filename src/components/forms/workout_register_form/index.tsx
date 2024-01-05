@@ -1,6 +1,8 @@
 import { useForm } from "react-hook-form";
 import { Input, Select } from "../inputs";
 import { days, reps } from "./workout_options";
+import React from "react";
+
 
 const WorkoutRegisterForm = () => {
   const { register, handleSubmit } = useForm();

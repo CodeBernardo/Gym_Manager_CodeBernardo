@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { Dashboard, ErrorPage, LoginPage, RegisterPage } from "../pages";
+import React from "react";
 
 const MainRoutes = () => {
   return (

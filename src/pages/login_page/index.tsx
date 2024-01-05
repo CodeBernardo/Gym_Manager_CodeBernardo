@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { LoginForm } from "../../components/forms";
+import React from "react";
 
 const LoginPage = () => {
   return (
@@ -7,7 +9,7 @@ const LoginPage = () => {
       <p>Faça o login para continuar para o Gym Manager</p>
       <LoginForm />
       <p>
-        Novo no Gym Manager? <span>Criar uma conta</span>
+        Novo no Gym Manager? <Link to={"/register"}>Criar uma conta</Link>
       </p>
     </div>
   );

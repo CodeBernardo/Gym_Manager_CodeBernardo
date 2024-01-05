@@ -1,6 +1,6 @@
-import "./App.css";
 import { DefaultTemplate } from "./components";
 import { MainRoutes } from "./routes";
+import React from "react";
 
 const App = () => {
   return (
