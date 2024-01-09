@@ -17,11 +17,11 @@ const Select = forwardRef<HTMLSelectElement, SelectProps>(
     return (
       <>
         <label htmlFor={id}>{label}</label>
-        <select {...rest} ref={ref}>
-          {options.map((option) => {
+        <select id={id} {...rest} ref={ref}>
+          {options.map((option, i) => {
             return (
-              <option key={option.value} value={option.value}>
-                {option.label}l
+              <option key={i} value={option.value}>
+                {option.label}
               </option>
             );
           })}
